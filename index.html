@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head onclick="handleclick(this)">
+<style>
+    body{
+        background-color: rgb(177, 248, 248);
+    }
+    .col{
+        height: 110px;
+        width: 110px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 90px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(255, 254, 194);
+        box-shadow: 0 4px 15px rgba(255, 65, 108, 0.5);
+        margin: 7px;
+        border: none;
+    }
+    .row{
+        display: flex;
+    }
+    .reset{
+        margin: 30px 0 0 126px;
+        padding: 12px 40px;
+        border: none;
+        font-size: 20px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, blueviolet, #ff4b2b);        
+        color: white;
+        box-shadow: 0 4px 15px rgba(255, 65, 108, 0.5);
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .reset:hover{
+        padding : 15px 45px;
+    }
+    .gameName{
+        margin-left: 58px;
+        font-family:Papyrus,fantasy;
+        font-size: 40px;
+       color: rgb(102, 8, 226);
+       text-shadow: 5px 4px 15px rgba(226, 8, 179, 0.5);;
+    }
+</style>
+<body>
+    <h1 class="gameName">Tic - Tak - Toe</h1>
+    <div class="game">
+        <div class="grid" id="grid">
+            <div class="row">
+                <div onclick="handleclick(this)" id="0" class="col"></div>
+                <div onclick="handleclick(this)" id="1" class="col"></div>
+                <div onclick="handleclick(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleclick(this)" id="3" class="col"></div>
+                <div onclick="handleclick(this)" id="4" class="col"></div>
+                <div onclick="handleclick(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleclick(this)" id="6" class="col"></div>
+                <div onclick="handleclick(this)" id="7" class="col"></div>
+                <div onclick="handleclick(this)" id="8" class="col"></div>
+            </div>
+        </div>
+        <button onclick="window.location.reload()" class="reset">Reset</button>
+    </div>
+    <script src="script.js "></script>
+
+   <h3 style="margin-left: 150px; color: #ff4b2b;">Made by <a href="https://www.instagram.com/i_willmake_u/" style="text-decoration: none; color: rgb(122, 11, 226);">Me</a></h3>
+</body>
+</html>
