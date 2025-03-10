@@ -8,5 +8,5 @@ This ia game   made up of
 - Its a mini project
 
 If you spot any mistakes, I'd love your advice!🚀
-at- raviranjan,bhakt@gmail.com
+at- raviranjan.bhakt@gmail.com
 
