@@ -3,55 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
-</head onclick="handleclick(this)">
-<style>
-    body{
-        background-color: rgb(177, 248, 248);
-    }
-    .col{
-        height: 110px;
-        width: 110px;
-        border: 2px solid black;
-        text-align: center;
-        font-size: 90px;
-        font-family:Arial, Helvetica, sans-serif;
-        color: white;
-        cursor: pointer;
-        background-color: rgb(255, 254, 194);
-        box-shadow: 0 4px 15px rgba(255, 65, 108, 0.5);
-        margin: 7px;
-        border: none;
-    }
-    .row{
-        display: flex;
-    }
-    .reset{
-        margin: 30px 0 0 126px;
-        padding: 12px 40px;
-        border: none;
-        font-size: 20px;
-        border-radius: 10px;
-        background: linear-gradient(90deg, blueviolet, #ff4b2b);        
-        color: white;
-        box-shadow: 0 4px 15px rgba(255, 65, 108, 0.5);
-        cursor: pointer;
-        transition: .3s;
-    }
-
-    .reset:hover{
-        padding : 15px 45px;
-    }
-    .gameName{
-        margin-left: 58px;
-        font-family:Papyrus,fantasy;
-        font-size: 40px;
-       color: rgb(102, 8, 226);
-       text-shadow: 5px 4px 15px rgba(226, 8, 179, 0.5);;
-    }
-</style>
+</head>
 <body>
-    <h1 class="gameName">Tic - Tak - Toe</h1>
+    <h1 class="gameName" style="font-size: 40px;">Tic - Tak - Toe</h1>
     <div class="game">
         <div class="grid" id="grid">
             <div class="row">
@@ -72,8 +28,7 @@
         </div>
         <button onclick="window.location.reload()" class="reset">Reset</button>
     </div>
-    <script src="script.js "></script>
-
-   <h3 style="margin-left: 150px; color: #ff4b2b;">Made by <a href="https://www.instagram.com/i_willmake_u/" style="text-decoration: none; color: rgb(122, 11, 226);">Me</a></h3>
+    <script src="script.js"></script>
+    <h3 ">Made by <a href="https://www.instagram.com/i_willmake_u/" style="text-decoration: none; color: rgb(225, 239, 252);">Me</a></h3>
 </body>
 </html>
