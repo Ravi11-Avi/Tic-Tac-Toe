@@ -8,6 +8,8 @@ body{
 .row {
     display: flex;
     align-items: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
 }
 
 .game {
